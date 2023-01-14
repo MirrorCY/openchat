@@ -1,0 +1,20 @@
+commands:
+  openchat:
+    description: 使用 chatGPT 回答你的问题
+    usage: |-
+      例如 ask 用 typescript 加密一个文件
+      输入 ask 用 python 编写 hello world
+      输入 openchat 获取此帮助
+      违反 OpenAI 条款的行为将被封禁
+
+    messages:
+      wating: 查询中，可能要一会...
+      network-error: 网络异常或服务器关闭。
+      prohibited: 你的请求由于含有{0}内容而被禁止。
+      hate: 仇恨
+      hate/threatening: 恐吓性
+      self-harm: 自我伤害
+      sexual: 色情
+      sexual/minors: 儿童色情
+      violence: 暴力
+      violence/graphic: 露骨暴力

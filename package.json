@@ -1,0 +1,30 @@
+{
+  "name": "koishi-plugin-openchat",
+  "description": "开箱即用的 chatGPT 问答插件",
+  "version": "1.6.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "42 <mirrorcy@vip.qq.com>",
+  "contributors": [
+    "42 <mirrorcy@vip.qq.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "atsc -b"
+  },
+  "homepage": "https://forum.koishi.xyz/t/topic/59",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "gpt",
+    "rr"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  }
+}
