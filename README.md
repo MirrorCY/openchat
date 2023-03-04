@@ -3,7 +3,9 @@
 只能调用openai官方的付费api。国内用户必须要配置代理翻墙才能用。
 
 运行方法：
-1. 修改config.env文件，填入自己的API_KEY
+
+0. 在命令行里执行 `git clone -b openchat2 https://github.com/yi03/openchat`
+1. 修改 `config.env` 文件，填入自己的 `API_KEY`
 2. 参考 https://forum.koishi.xyz/t/topic/59
 
 # 用法
