@@ -1,12 +1,11 @@
 commands:
-  openchat:
-    description: 使用 chatGPT 回答你的问题
+  openchat2:
+    description: 使用 gpt-3.5-turbo 回答你的问题
     usage: |-
-      例如 ask 用 typescript 加密一个文件
-      输入 ask 用 python 编写 hello world
-      输入 openchat 获取此帮助
-      违反 OpenAI 条款的行为将被封禁
+      艾特bot 或 提到bot的名字 或 回复bot 后，bot会回复你
+      输入 `设定 <text>` 设定bot的人格，如 `设定 你是一只猫猫`
+      输入 `重置` 或 `reset` 重置bot的记忆
+      每个账号的设定和记忆是独立的
 
     messages:
-      wating: 查询中，可能要一会...
       network-error: 网络异常或服务器关闭。

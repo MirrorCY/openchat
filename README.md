@@ -1,7 +1,6 @@
-# koishi-plugin-openchat
-[![downloads](https://img.shields.io/npm/dm/koishi-plugin-openchat?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-openchat)
-[![npm](https://img.shields.io/npm/v/koishi-plugin-openchat?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-openchat)
+# openchat2后端
 
-# 3.0 发布，支持gpt-3.5-turbo
-
-有任何问题到 [koishi 论坛](https://forum.koishi.xyz/t/topic/59) 反馈
+只能调用openai官方的付费api。
+运行方法：
+1. 修改config.env文件，填入自己的API_KEY
+2. 参考 https://forum.koishi.xyz/t/topic/59

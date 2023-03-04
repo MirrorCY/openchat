@@ -1,27 +1,28 @@
 {
-  "name": "koishi-plugin-openchat",
+  "name": "koishi-plugin-openchat2",
   "description": "chatGPT 问答插件",
-  "version": "2.1.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
-  "author": "42 <mirrorcy@vip.qq.com>",
+  "author": "yi03",
   "contributors": [
-    "42 <mirrorcy@vip.qq.com>"
+    "yi03"
   ],
   "license": "MIT",
   "scripts": {
     "build": "tsc -b"
   },
-  "homepage": "https://forum.koishi.xyz/t/topic/59",
+  "homepage": "https://github.com/yi03/openchat",
   "keywords": [
     "chatbot",
     "koishi",
     "plugin",
-    "gpt"
+    "gpt",
+    "openai"
   ],
   "peerDependencies": {
     "koishi": "^4.11.0"
