@@ -5,7 +5,7 @@ export const name = 'openchat2'
 
 const logger = new Logger(name)
 
-export const usage = "[自建后端转发服务](https://github.com/MirrorCY/openchat/blob/main/chat.py)，目前尚未存在手把手教程，有基本的 python 使用经验一般可以较为轻松的搭建。"
+export const usage = "[自建后端转发服务](https://github.com/yi03/openchat/tree/openchat2)，目前尚未存在手把手教程，有基本的 python 使用经验一般可以较为轻松的搭建。"
 
 export interface Config {
   botname: string
