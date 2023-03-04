@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc -b"
   },
-  "homepage": "https://github.com/yi03/openchat",
+  "homepage": "https://github.com/yi03/openchat/tree/openchat2",
   "keywords": [
     "chatbot",
     "koishi",
