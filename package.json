@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-openchat2",
-  "description": "chatGPT 问答插件",
-  "version": "1.0.0",
+  "description": "gpt-3.5-turbo 问答插件",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [

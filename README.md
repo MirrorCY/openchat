@@ -4,3 +4,9 @@
 运行方法：
 1. 修改config.env文件，填入自己的API_KEY
 2. 参考 https://forum.koishi.xyz/t/topic/59
+
+# 用法
+艾特bot 或 提到bot的名字 或 回复bot 后，bot会回复你
+输入 `设定 <text>` 设定bot的人格，如 `设定 你是一只猫猫`
+输入 `重置` 或 `reset` 重置bot的记忆
+每个账号的设定和记忆是独立的
