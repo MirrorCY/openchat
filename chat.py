@@ -1,12 +1,14 @@
 import uvicorn
 from fastapi import FastAPI,Body
-from revChatGPT.V3 import Chatbot
+from revChatGPT.V2 import Chatbot
 
 port=8006
 app = FastAPI()
 chatbot = Chatbot(
-    api_key="",
-    proxy="",
+    email="",
+    password="",
+    # paid=True,
+    # proxy="http://127.0.0.1:7890",
 )
 
 '''
@@ -24,8 +26,8 @@ password 填写你的 openai 密码，是 openai 账户的密码，不是你邮�
 
 async def get_text(prompt):
     text = ""
-    for response in chatbot.ask(prompt):
-        text += response.replace("\n", "")
+    async for response in chatbot.ask(prompt):
+        text += response["choices"][0]["text"].replace("<|im_end|>", "")
     return text
 
 
