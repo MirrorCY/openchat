@@ -5,8 +5,8 @@ from revChatGPT.V3 import Chatbot
 port=8006
 app = FastAPI()
 chatbot = Chatbot(
-    api_key="",
-    proxy="",
+    api_key="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",
+    proxy="http://127.0.0.1:7890",
 )
 
 '''
@@ -23,10 +23,7 @@ password 填写你的 openai 密码，是 openai 账户的密码，不是你邮�
 '''
 
 async def get_text(prompt):
-    text = ""
-    for response in chatbot.ask(prompt):
-        text += response.replace("\n", "")
-    return text
+    return chatbot.ask(prompt)
 
 
 @app.post("/chat")
