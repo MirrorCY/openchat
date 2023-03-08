@@ -5,8 +5,8 @@ from revChatGPT.V3 import Chatbot
 port=8006
 app = FastAPI()
 chatbot = Chatbot(
-    api_key="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",
-    proxy="http://127.0.0.1:7890",
+    api_key="",
+    proxy="",
 )
 
 '''
